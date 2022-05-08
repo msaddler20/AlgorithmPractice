@@ -23,8 +23,6 @@ class SlidingWindow {
 
     if (strLen < searchLength) return false;
 
-    let found = false;
-
     while (start < strLen && start + searchLength < strLen && !found) {
       var subs = str1.substring(start, start + searchLength);
       if (subs == search) {

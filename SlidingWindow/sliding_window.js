@@ -2,7 +2,7 @@ const readline = require("readline");
 
 class SlidingWindow {
   getMaxSum = () =>
-    _slidingWindowMaxSum(
+    this._slidingWindowMaxSum(
       [2, 6, 9, 2, 1, 11, 5, 5, 3, 16, 7, 8, 4, 5, 2, 3, 6, 7, 5, 23],
       3
     );
